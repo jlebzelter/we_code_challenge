@@ -186,6 +186,11 @@ button {
   border-radius: 100%;
 }
 
+.profile-pic > img  {
+  height: 100px;
+  width: 100px;
+}
+
 #user-pic {
   border: 3px solid #09A9CC;
 }
@@ -207,11 +212,14 @@ button {
 
 a {
   background-color: transparent;
+
 }
 
 #login {
   margin-top: 50px;
 }
+
+
 
 #submit-connect {
   background-color: #49BB8F;
