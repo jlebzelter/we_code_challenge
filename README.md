@@ -2,15 +2,15 @@
 Welcome to Outer Circle!
 Use this readme to get started setting up and exploring Outer Cricle!
 
-# Inspiration
+## Inspiration
 Has it been difficult for you to make friends? Imagine you as a recent college grad moved to Portland to land a job and you are looking for local things to do in town but you find it difficult to find a friend to hang out with. Despite the abundance of social media networks, you are not connected with anyone in Portland. You are open to meet with people who are different from you but you don’t know how to go about finding them. Outer Circle is here to help to "expand their horizons. It helps you to find others who, despite differences, share the same interests as you and connects you to their profiles.
 
-# How it works
+## How it works
 
 1) The user logs into the website using their LinkedIn credentials and their profile is pulled into "OuterCircle." 2) They then are asked brief questions to find their interests
 3) The app then finds dissimilar people with common interests to the user that they can connect with. 4) These profiles are presented and the user selects who they want to connect with. 5) If a match is made a chat is created between the users allowing them to learn more about each other and plan a meetup, if desired.
 
-# Target audience
+## Target audience
 
 Social media users looking to connect with new people to expand their horizons.
 
@@ -38,10 +38,3 @@ Press return, and you'll be taken to that folder.
 To install the app, type `npm install` and press return. You should see several packages and dependencies being installed.
 
 To start the app, type `node app.js` in the command line. After a few seconds, you should see a success message. Keep your command line tool open, and open a new tab in your web browser. In the URL bar, type `http://localhost:8889/static/index.html`.
-
-
-## Resources
-
-* [Node](https://nodejs.org/)
-* [NodeSchool](http://nodeschool.io/)
-* [npm](https://www.npmjs.com/)
