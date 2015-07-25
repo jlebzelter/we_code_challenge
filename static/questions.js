@@ -8,7 +8,7 @@ function refreshDOM(){
     var container = $(".options");
     container.html("");
 
-    var circleClasses = ['one', 'two', 'three'];
+    var circleClasses = ['one', 'two', 'three', 'four'];
 
     for (var i=0; i<categories.length; i++) {
         var cat = categories[i];
@@ -16,7 +16,7 @@ function refreshDOM(){
         list.addClass(circleClasses[i]);
         list.append('<dt>' + cat.name + '</dt>');
         for (var j=0; j<cat.options.length; j++) {
-            list.append('<dd>' + cat.options[j] + '</dd>');
+            list.append('<dd class="' + circleClasses[j] + '"><div class="dot"></div><span>' + cat.options[j] + '</span></dd>');
             container.append(list);
         }
     }

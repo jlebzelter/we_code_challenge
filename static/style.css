@@ -135,6 +135,8 @@ h3 {
   background-color: #FFA900;
 }
 
+
+/* questions page */
 .options {
   position: relative;
 }
@@ -155,21 +157,56 @@ dt {
   font-weight: bold;
 }
 
-.one {
+dl.one {
   background-color: blue;
   left: 75px;
   top: 0;
 }
-.two {
+dl.two {
   background-color: green;
   left: 325px;
   top: 0;
 }
-.three {
+dl.three {
   background-color: red;
   left: 200px;
   top: 200px;
+}
 
+.dot {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: purple;
+}
+
+dd {
+  position: absolute;
+}
+
+dd.west_coast, dd.pancakes {
+  left: -10px;
+  top: 100px;
+}
+dd.urbanite, dd.biking {
+  left: 0;
+  top: 200px;
+}
+dd.craft_beers, dd.coffee {
+  left: 200px;
+  top: 0;
+}
+dd.foreign_films {
+  left: 240px;
+  top: 240px;
+}
+dd.gaming {
+  left: 280px;
+  top: 100px;
+}
+
+
+/* splash page */
 form {
   margin-top: 25px;
 }
