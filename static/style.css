@@ -162,17 +162,17 @@ dt {
 }
 
 dl.one {
-  background-color: blue;
+  background-color: rgba(0,0,255,0.3);
   left: 75px;
   top: 0;
 }
 dl.two {
-  background-color: green;
+  background-color: rgba(0,255,0,0.3);
   left: 325px;
   top: 0;
 }
 dl.three {
-  background-color: red;
+  background-color: rgba(255,0,0,0.3);
   left: 200px;
   top: 200px;
 }
@@ -262,7 +262,7 @@ a {
 #submit-connect:hover {
   background-color: transparent;
   border: 2px solid #49BB8F;
-} 
+}
 
 #submit-connect > a {
   color: #F9EC24;
