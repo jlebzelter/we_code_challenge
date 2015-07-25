@@ -1,12 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,900,300);
+
 body {
-  background-color: #efefef;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-image: url(backgroundsplashpage.png);
+  background-attachment: fixed;
+  background-size: cover;
   text-align: center;
+  background-repeat: no-repeat;
+  background-position: center bottom;
   padding: 25px;
+  font-family: 'Exo 2', sans-serif;
 }
 
 h1 {
   font-size: 64px;
+  font-weight: 900;
 }
 
 .wrapper {
@@ -17,9 +24,7 @@ h1 {
 #header {
   color: #000000;
   margin: 50px;
-  padding: 5%;
   text-align: center;
-  /*background-color: #FFFFFF;*/
   border-radius: 5px;
   -moz-border-radius: 5px;
 }
@@ -32,7 +37,6 @@ h1 {
 
 h4 {
   text-align: center;
-  /*max-width: 600px;*/
 }
 
 p {
@@ -139,8 +143,26 @@ button {
   margin: 15px;
 }
 
-img {
-  width: 200px;
+.profile-pic {
+  border-radius: 100%;
+}
+
+#user-pic {
+  border: 3px solid #09A9CC;
+}
+
+.match {
+  border: 2px solid #EE4264;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.match:hover {
+  border: 5px solid #49BB8F
+}
+
+#logo {
   height: 200px;
 }
 
