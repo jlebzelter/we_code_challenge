@@ -9,11 +9,13 @@ body {
   background-position: center bottom;
   padding: 25px;
   font-family: 'Exo 2', sans-serif;
+  color: #5B5C5C;
 }
 
 h1 {
   font-size: 64px;
   font-weight: 900;
+
 }
 
 .wrapper {
@@ -22,8 +24,7 @@ h1 {
 }
 
 #header {
-  color: #000000;
-  margin: 50px;
+  color: #5B5C5C;
   text-align: center;
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -130,6 +131,9 @@ h3 {
   background-color: #1142AA;
 }
 
+.row {
+  margin-top: 75px;
+}
 .editing {
   text-decoration: none;
   background-color: #FFA900;
@@ -235,6 +239,44 @@ button {
 }
 
 #logo {
-  height: 200px;
+  height: 400px;
 }
 
+a {
+  background-color: transparent;
+}
+
+#login {
+  margin-top: 50px;
+}
+
+#submit-connect {
+  background-color: #49BB8F;
+  margin: 15px auto 0;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+#submit-connect:hover {
+  background-color: transparent;
+  border: 2px solid #49BB8F;
+} 
+
+#submit-connect > a {
+  color: #F9EC24;
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 20px;
+  background-color: transparent;
+  vertical-align: text-bottom;
+}
+
+#submit-connect:hover > a {
+  color: #09A9CC;
+}
+
+textarea {
+  float: left;
+}
