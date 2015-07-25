@@ -95,7 +95,7 @@ h3 {
   font-size: 22px;
 }
 
-li {
+/*li {
   position: relative;
   margin: 20px 50px;
   background-color: #FF6600;
@@ -105,7 +105,7 @@ li {
   color: #FFFFFF;
   font-size: 17px;
   line-height: 25px;
-}
+}*/
 
 .sold {
   text-decoration: line-through;
@@ -115,5 +115,41 @@ li {
 .editing {
   text-decoration: none;
   background-color: #FFA900;
+}
+
+.options {
+  position: relative;
+}
+
+dl {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+dt {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 150px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.one {
+  background-color: blue;
+  left: 75px;
+  top: 0;
+}
+.two {
+  background-color: green;
+  left: 325px;
+  top: 0;
+}
+.three {
+  background-color: red;
+  left: 200px;
+  top: 200px;
 }
 
