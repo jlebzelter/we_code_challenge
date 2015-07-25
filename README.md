@@ -38,3 +38,5 @@ Press return, and you'll be taken to that folder.
 To install the app, type `npm install` and press return. You should see several packages and dependencies being installed.
 
 To start the app, type `node app.js` in the command line. After a few seconds, you should see a success message. Keep your command line tool open, and open a new tab in your web browser. In the URL bar, type `http://localhost:8889/static/index.html`.
+
+To stop serving the page to your browser, press Control+C in the CLI.
